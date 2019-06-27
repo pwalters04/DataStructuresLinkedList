@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/h246632/CLionProjects/DataStr_Linkedlist/DataStr_LinkedList.h
+cstdlib
+-
+
+/Users/h246632/CLionProjects/DataStr_Linkedlist/main.cpp
+iostream
+-
+DataStr_LinkedList.h
+/Users/h246632/CLionProjects/DataStr_Linkedlist/DataStr_LinkedList.h
+
