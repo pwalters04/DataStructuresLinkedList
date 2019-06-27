@@ -11,6 +11,7 @@ int main() {
     node *HEAD_PTR;
     node *TAIL_PTR;
     size_t count;
+    size_t sum;
     size_t entry = 10;
 
     list_head_insert(HEAD_PTR,30);
@@ -24,8 +25,10 @@ int main() {
 
     count = list_length(HEAD_PTR);
     print_list(HEAD_PTR);
+    sum=TotalSum(HEAD_PTR);
 
     cout<<"List Length: "<< count <<endl;
 
+    cout<< "Total Sum: "<< sum << endl;
     return 0;
 }

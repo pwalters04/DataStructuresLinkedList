@@ -47,6 +47,7 @@ namespace DS_LinkedList
         {
             total = total + cursor->data();
         }
+        return total;
     }
 
     void print_list(const node *head_ptr)

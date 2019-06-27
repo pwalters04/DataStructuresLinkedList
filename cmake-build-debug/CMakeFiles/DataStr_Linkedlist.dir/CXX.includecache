@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/Users/h246632/CLionProjects/DataStr_Linkedlist/DataStr_LinkedList.cxx
+cassert
+-
+cstdlib
+-
+iostream
+-
+mach/time_value.h
+-
+DataStr_LinkedList.h
+/Users/h246632/CLionProjects/DataStr_Linkedlist/DataStr_LinkedList.h
+
 /Users/h246632/CLionProjects/DataStr_Linkedlist/DataStr_LinkedList.h
 cstdlib
 -
